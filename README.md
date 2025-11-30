@@ -22,12 +22,3 @@ The goal of the assignment was to design and implement a small **virtual file sy
   - `Terminal` – command loop and user interaction.
   - `main.cpp` – creates the terminal and starts the loop.
 
-### How to build & run
-From the root of this folder:
-
-```bash
-g++ -std=c++17 -Wall -Wextra -pedantic src/*.cpp -o vfs_terminal
-./vfs_terminal
-```
-
-Depending on your environment, you might want to tweak the compiler flags, but the above is what I used during the course.

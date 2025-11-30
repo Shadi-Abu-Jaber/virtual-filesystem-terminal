@@ -1,0 +1,42 @@
+
+input:
+
+pwd
+touch V/test.txt
+write V/test.txt 0 d
+read V/test.txt 0
+write V/test.txt 1 e
+write V/test.txt 2 J
+write V/test.txt 3 o
+write V/test.txt 4 n
+write V/test.txt 5 g
+cat V/text.txt
+cat V/test.txt
+mkdir V/tmp/
+chdir V/tmp/
+pwd
+ls V/tmp/
+copy V/test.txt V/tmp/t.dat
+copy FS.cpp V/tmp/f.cc
+ln V/tmp/f.cc V/tmp/FS.cpp
+lproot
+rmdir V/tmp/
+lproot
+exit
+
+outpu:
+
+V/
+d
+ERROR: no such filename
+deJong
+V/tmp/
+V/tmp/:
+V/:
+test.txt 1
+V/tmp/:
+f.cc 2
+t.dat 1
+FS.cpp 1
+V/:
+test.txt 1
